@@ -1,0 +1,40 @@
+.first-btn{
+    padding: 5px 5px;
+    width: 70px;
+    color: white;
+    background: rgb(35, 109, 219);
+    border: none;
+    border-radius: 3px;
+    transition: .5s ease-in-out;
+    display: block;
+    box-shadow: 20px 20px 50px grey;
+}
+
+.first-btn:hover{
+    border: 1px solid rgb(35, 109, 219);
+    background: white;
+    color: rgb(35, 109, 219);
+}
+
+
+.second-btn{
+    padding: 5px 5px;
+    width: 70px;
+    color: white;
+    background: rgb(35, 109, 219);
+    border: none;
+    border-radius: 3px;
+    transition: .5s ease-in-out;
+    display: block;
+    margin-top: 6px; box-shadow: 20px 20px 50px grey;
+
+
+  
+}
+
+.second-btn:hover{
+    border: 1px solid rgb(35, 109, 219);
+    background: white;
+    color: rgb(35, 109, 219);
+    transform: scale(1);
+}

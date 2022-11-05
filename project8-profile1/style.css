@@ -1,0 +1,59 @@
+.profilr-card{
+    height: 270px;
+    width: 150px;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    border-radius: 5px;
+    border: 2px solid rgb(144, 144, 218);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border: 2px solid rgb(144, 144, 218);
+    object-fit: cover;
+
+}
+button{
+    padding: 4px;
+    color: rgb(46, 46, 163);
+    border: 1px solid rgb(46, 46, 163);
+    border-radius: 3px;
+    margin-left: -50px;
+    margin-bottom: 20px;
+}
+button:hover{
+    background:rgb(64, 64, 185) ;
+    color: white;
+    cursor: pointer;
+}
+
+
+img:hover {
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+  }
+
+.name{
+    color: rgb(46, 46, 163);
+    text-transform: uppercase;
+    font-style: 900;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.bio{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    margin-left: 10px;
+    color: rgb(124, 124, 182);
+}

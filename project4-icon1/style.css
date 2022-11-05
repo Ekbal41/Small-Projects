@@ -1,0 +1,34 @@
+.container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 90%;
+    max-width: 1200px;
+    
+}
+
+
+.container .btn{
+    display: inline-block;
+    width: 90px;
+    height: 90px;
+    background: #fff;
+    box-shadow: 0 5px 15px -5px #aaa;
+    margin: 10px;
+    border-radius: 30%;
+    overflow: hidden;
+    position: relative;
+    color: #42d2ff;
+}
+
+.container .btn i{
+    position: relative;
+    font-size: 26px;
+    z-index: 4;
+    transition: .3s ease-in-out;
+    line-height: 90px;
+}
+
+

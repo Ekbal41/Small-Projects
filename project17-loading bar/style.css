@@ -1,0 +1,51 @@
+body{
+    margin: 0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    background: rgb(220, 220, 228);
+    color: rgb(12, 12, 12);
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+
+.container{
+    text-align: center;
+    width: 300px;
+    position: relative;
+
+}
+
+.counter{
+    font-size: 40px;
+
+}
+
+.loading-bar-back{
+    position: absolute;
+    height: 10px;
+    width: 100%;
+    border-radius: 5px;
+    background-color: white;
+    border: none;
+
+
+
+
+}
+
+.loading-bar-front{
+    position: absolute;
+    height: 10px;
+    width: 0%;
+    border-radius: 5px;
+    background-color: rgb(17, 17, 17);
+    border: none;
+
+
+
+
+}
